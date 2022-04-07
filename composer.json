@@ -1,5 +1,5 @@
 {
-  "name": "capocode/inertia-react-starter",
+  "name": "capocode/starter-inertia-react",
   "require": {
     "capocode/framework": "^0.4.1",
     "inertiajs/inertia-laravel": "^0.5.4"
