@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "mix --production",
+        "build": "composer run build && npm run production",
+        "inertia-ssr": "node public/_assets/ssr.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-react": "^0.8.0",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/server": "^0.1.0",
+        "@vue/compiler-sfc": "^3.0.4",
+        "autoprefixer": "^10.4.3",
+        "axios": "^0.19",
+        "browser-sync": "^2.26.13",
+        "browser-sync-webpack-plugin": "^2.0.1",
+        "cross-env": "^7.0",
+        "dotenv": "^6.2.0",
+        "laravel-mix": "^6.0.39",
+        "laravel-mix-versionhash": "^1.1.7",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.11",
+        "postcss-import": "^12.0.1",
+        "react-dom": "^17.0.2",
+        "resolve-url-loader": "^4.0.0",
+        "tailwindcss": "^3.0.23",
+        "ts-loader": "^9.2.8",
+        "typescript": "^4.6.2",
+        "vue": "^3.0.4",
+        "vue-loader": "^16.1.1"
+    },
+    "dependencies": {
+        "webpack-node-externals": "^3.0.0"
+    }
+}

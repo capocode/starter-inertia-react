@@ -1,0 +1,20 @@
+vendor
+
+# App
+.cache
+out
+dist
+
+# Editors
+.vscode
+.idea
+node_modules
+.env
+.dev
+
+# Assets
+public/css/app.css
+public/js/app.js
+public/mix-manifest.json
+public/_assets
+static/_assets
